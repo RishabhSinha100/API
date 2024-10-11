@@ -1,0 +1,40 @@
+
+
+* {
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  font-family: Nunito,sans-serif;
+}
+@media (max-width:768px) {
+  .countries-container {
+      justify-content: center;
+  }
+
+  .title {
+      font-size: 16px;
+
+  }
+
+  .header-content p {
+      font-size: 12px;
+  }
+}
+@media(max-width:940px){
+  .country-details{
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top:32px;
+      gap: 16px;
+  }
+  .details-text{
+    
+      max-height: unset;
+  }
+ .country-details img{
+  width: 100%;
+  max-width: 400px;
+ }
+}

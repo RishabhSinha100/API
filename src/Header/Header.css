@@ -1,0 +1,53 @@
+.header-container{
+    box-shadow: 0 2px 4px 4px rgba(0,0,0,0.1);
+    padding-inline: 24px;
+
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-inline:auto ;
+}
+.title{
+    font-weight: 800;
+}
+.filter-by-region {
+  
+    color: var(--text-color); /* Corrected variable name */
+}
+.theme-change {
+    cursor: pointer;
+}
+.search-container input {
+    
+    background-color: var(--background-color);
+    color: var(--text-color); /* Corrected variable name */
+}
+.country-card {
+    
+    background-color: var(--elements-color);
+}
+.header-container {
+  
+    background-color: var(--elements-color); /* Corrected variable name */
+}
+body.dark {
+    --background-color: hsl(207, 26%, 17%);
+    --elements-color: hsl(209, 23%, 22%);
+    --text-color: white;
+}
+body {
+    --background-color: white;
+    --text-color: black;
+    --elements-color: white; /* Corrected here */
+
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.theme-change .fa-moon.active {
+    color: yellow; /* Change color or style as you see fit */
+}
